@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #b9ffd0;
+}
+
+.conteiner-flex, .container-2 {
+    background: #cbff53;
+    border-radius: 30px;
+    margin: 1em 20%;
+}
+
+.texto-nome, .texto-categoria {
+    font-size: 24px;    
+    text-align: center;
+}
+
+input, button {
+    padding: .5em;
+    margin: .5em;
+    border: #baa0ff double 5px;
+    border-radius: 7px;
+}
+
+.container-2 {
+    color: #1a003b;
+    background-color: #53ffaf;
+}
+
+.setor {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDiv {
+    margin: 0 1rem;
+    display: flex;
+}
+
+.titulo-container {
+    color: #003b36;
+}
