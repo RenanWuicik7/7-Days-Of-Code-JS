@@ -1,0 +1,57 @@
+/* Day 1 */
+
+body {
+    font-family: 'Arial';
+    background: linear-gradient(90deg, rgba(0, 0, 0), rgba(77, 77, 77), rgba(100, 100, 100),rgba(220, 220, 220));
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e4fffd;
+    font-size: 2rem;
+}
+
+.container__imagem-logo {
+    width: 60%;
+    margin: 1em;
+}
+
+.container__imagem-barra {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.container__texto {
+    font-size: 1.5rem;
+}
+
+#botao-ativar-js {
+    font-size: 1rem;
+    margin: 1px solid #000;
+    border-radius: 10px;
+    padding: .5em 1em;
+}
+/* End Day 1 */
+
+/* Add Day 2 */
+.css-style {
+    font-size: 1.7rem;
+    color: #d0fff7;
+    margin: .2em 0 1em;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Add Day 3 */
+.container__div {
+    font-size: 1.7rem;
+    color: #d0fff7;
+    margin: .2em 0 1em;
+    font-weight: 500;
+    text-decoration: underline;
+}
