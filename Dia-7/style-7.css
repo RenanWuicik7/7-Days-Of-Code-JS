@@ -1,0 +1,58 @@
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__imagem-logo {
+    width: 50%;
+}
+
+.container__imagem-barra {
+    width: 40%;
+}
+
+.texto-inicial {
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.lista-main {
+    display: flex;
+}
+
+.lista-main_item {
+    list-style: none;
+    padding: 0 .5rem;
+}
+
+#input-soma-1, 
+#input-soma-2, 
+#input-diminuir-1, 
+#input-diminuir-2, 
+#input-multiplicar-1, 
+#input-multiplicar-2, 
+#input-dividir-1, 
+#input-dividir-2 {
+    display: block;
+}
+
+section {
+    margin: 1em;
+}
+
+input {
+    margin: .5em;
+}
+
+.texto-resultado, .separacao-resultado {
+    font-size: 25px;
+    color: azure;
+}
+
+button {
+    border: 7px double #d3ff5a;
+    border-radius: 7px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Dia-1/style.css">
+        <link rel="stylesheet" href="style-7.css">
+        <title>Seventh Day</title>
+    </head>
+    <body>
+        <section class="container-principal">
+            <a href="../index-main.html">
+                <img src="../Dia-1/img/7-days_JS-logo.png" alt="Logo do 7 days of code junto com a logo do JavaScript" class="container__imagem-logo">
+            </a>
+            <img src="assets/barra-7doc-JS-7day.png" alt="Barra com a contagem dos dias do 7 days of code de JS" class="container__imagem-barra">
+            <h2>#7DaysOfCode - Lógica JS 7/7: Funções em Javascript</h2>
+        </section>
+        <section>
+                <p class="texto-inicial">Escolha qual tipo de operação você deseja Realizar:</p>
+                <ul class="lista-main">
+                    <li class="lista-main_item">
+                        <button onclick="somarNumeros()">Somar</button>
+                    </li>
+                    <li class="lista-main_item">
+                        <button onclick="subtrairNumeros()">Subtrair</button>
+                    </li>
+                    <li class="lista-main_item">
+                        <button onclick="multiplicarNumeros()">Multiplicar</button>
+                    </li>
+                    <li class="lista-main_item">
+                        <button onclick="dividirNumeros()">Dividir</button>
+                    </li>
+                </ul>
+            <section id="container-contas">
+                <section id="somar-container" style="display: none;">
+                    <input type="text" id="input-soma-1" placeholder="Numero 1">
+                    <input type="text" id="input-soma-2" placeholder="Numero 2">
+                    <button onclick="exibeResultadoSoma()">SOMAR</button>
+                    <p class="texto-resultado">O Resultado dessa operação é:</p>
+                    <div class="separacao-resultado" id="resultado-final-soma"></div>
+                </section>
+                <section id="subtrair-container" style="display: none;">
+                    <input type="text" id="input-diminuir-1" placeholder="Numero 1">
+                    <input type="text" id="input-diminuir-2" placeholder="Numero 2">
+                    <button onclick="exibeResultadoDiminui()">DIMINUIR</button>
+                    <p class="texto-resultado">O Resultado dessa operação é:</p>
+                    <div class="separacao-resultado" id="resultado-final-diminui"></div>
+                </section>
+                <section id="multiplicar-container" style="display: none;">
+                    <input type="text" id="input-multiplicar-1" placeholder="Numero 1">
+                    <input type="text" id="input-multiplicar-2" placeholder="Numero 2">
+                    <button onclick="exibeResultadoMultiplica()">MULTIPLICAR</button>
+                    <p class="texto-resultado">O Resultado dessa operação é:</p>
+                    <div class="separacao-resultado" id="resultado-final-multiplica"></div>
+                </section>
+                <section id="dividir-container" style="display: none;">
+                    <input type="text" id="input-dividir-1" placeholder="Numero 1">
+                    <input type="text" id="input-dividir-2" placeholder="Numero 2">
+                    <button onclick="exibeResultadoDivide()">DIVIDIR</button>
+                    <p class="texto-resultado">O Resultado dessa operação é:</p>
+                    <div class="separacao-resultado" id="resultado-final-divide"></div>
+                </section>
+            </section>
+            <li class="lista-encerrar"><button class="botao-lista-item-escolha" onclick="encerrarProcesso()">Encerrar as Contas</button>
+            </li>
+        </section>
+
+    </body>
+        <script src="main-7.js"></script>
+</html>
